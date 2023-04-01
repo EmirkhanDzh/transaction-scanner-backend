@@ -1,8 +1,8 @@
-package com.notiprice.controller
+package com.transactioncanner.controller
 
-import com.notiprice.dto.UserDto
-import com.notiprice.security.JwtProvider
-import com.notiprice.service.UserService
+import com.transactioncanner.dto.UserDto
+import com.transactioncanner.security.JwtProvider
+import com.transactioncanner.service.UserService
 import org.springframework.web.bind.annotation.*
 
 /**

@@ -1,15 +1,15 @@
-package com.notiprice.extension
+package com.transactioncanner.extension
 
-import com.notiprice.dto.OperatorDto
-import com.notiprice.dto.OperatorResultDto
-import com.notiprice.dto.RulesEngineResultDto
-import com.notiprice.dto.SanctionDto
-import com.notiprice.dto.TransactionDto
-import com.notiprice.entity.Operator
-import com.notiprice.entity.OperatorsResult
-import com.notiprice.entity.RulesEngineResult
-import com.notiprice.entity.Sanction
-import com.notiprice.entity.Transaction
+import com.transactioncanner.dto.OperatorDto
+import com.transactioncanner.dto.OperatorResultDto
+import com.transactioncanner.dto.RulesEngineResultDto
+import com.transactioncanner.dto.SanctionDto
+import com.transactioncanner.dto.TransactionDto
+import com.transactioncanner.entity.Operator
+import com.transactioncanner.entity.OperatorsResult
+import com.transactioncanner.entity.RulesEngineResult
+import com.transactioncanner.entity.Sanction
+import com.transactioncanner.entity.Transaction
 
 fun TransactionDto.toEntity() = Transaction(
     id = this.id,

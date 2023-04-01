@@ -1,6 +1,6 @@
-package com.notiprice.security
+package com.transactioncanner.security
 
-import com.notiprice.service.UserService
+import com.transactioncanner.service.UserService
 import org.springframework.security.core.userdetails.UserDetailsService
 import org.springframework.stereotype.Component
 

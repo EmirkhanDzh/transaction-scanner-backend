@@ -1,7 +1,7 @@
-package com.notiprice.scanner
+package com.transactioncanner.scanner
 
-import com.notiprice.entity.Sanction
-import com.notiprice.entity.Transaction
+import com.transactioncanner.entity.Sanction
+import com.transactioncanner.entity.Transaction
 import org.springframework.stereotype.Component
 
 @Component

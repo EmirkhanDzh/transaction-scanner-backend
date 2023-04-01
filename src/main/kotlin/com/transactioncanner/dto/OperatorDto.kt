@@ -1,4 +1,4 @@
-package com.notiprice.dto
+package com.transactioncanner.dto
 
 data class OperatorDto(
     var id: Long? = null,

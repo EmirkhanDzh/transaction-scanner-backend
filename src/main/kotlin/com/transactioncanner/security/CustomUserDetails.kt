@@ -1,6 +1,6 @@
-package com.notiprice.security
+package com.transactioncanner.security
 
-import com.notiprice.entity.User
+import com.transactioncanner.entity.User
 import org.springframework.security.core.GrantedAuthority
 import org.springframework.security.core.authority.SimpleGrantedAuthority
 import org.springframework.security.core.userdetails.UserDetails

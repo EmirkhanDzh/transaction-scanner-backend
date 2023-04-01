@@ -1,4 +1,4 @@
-package com.notiprice.security
+package com.transactioncanner.security
 
 import io.jsonwebtoken.Jwts
 import io.jsonwebtoken.SignatureAlgorithm

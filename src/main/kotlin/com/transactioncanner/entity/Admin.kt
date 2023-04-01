@@ -1,4 +1,4 @@
-package com.notiprice.entity
+package com.transactioncanner.entity
 
 import javax.persistence.Column
 import javax.persistence.Entity
@@ -6,8 +6,8 @@ import javax.persistence.Id
 import javax.persistence.Table
 
 @Entity
-@Table(name = "operators")
-open class Operator() {
+@Table(name = "admins")
+open class Admin() {
     @Id
     @Column(name = "id", nullable = false)
     open var id: Long? = null

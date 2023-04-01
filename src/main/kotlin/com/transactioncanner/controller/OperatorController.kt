@@ -1,8 +1,8 @@
-package com.notiprice.controller
+package com.transactioncanner.controller
 
-import com.notiprice.extension.toEntity
-import com.notiprice.dao.OperatorRepository
-import com.notiprice.dto.OperatorDto
+import com.transactioncanner.extension.toEntity
+import com.transactioncanner.dao.OperatorRepository
+import com.transactioncanner.dto.OperatorDto
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RestController
