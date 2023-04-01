@@ -1,8 +1,8 @@
-//package com.notiprice
+//package com.transactioncanner
 //
 //import com.fasterxml.jackson.databind.ObjectMapper
-//import com.notiprice.dto.ProductDto
-//import com.notiprice.dto.UserDto
+//import com.transactioncanner.dto.ProductDto
+//import com.transactioncanner.dto.UserDto
 //import org.junit.jupiter.api.*
 //import org.junit.jupiter.api.Assertions.*
 //import org.springframework.beans.factory.annotation.Autowired
